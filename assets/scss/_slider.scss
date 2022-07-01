@@ -1,0 +1,73 @@
+#slider{ 
+    .image-text{
+        position: absolute;
+        top: 0;
+        color: white;
+        margin: 10% 8%;
+        .img-text{
+            h4{
+                font-size: 25px;
+            }
+            h1{
+                font-size: 45px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .img-btn{
+            button{
+                border: none;
+                border-radius: 25px;
+                padding: 15px 40px;
+                margin-top: 15px;
+                &:hover{
+                    background-color: black;
+                    color: #e3a51e;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+    &:hover{
+        .button-previous{
+            display: block;
+        }
+        .button-next{
+            display: block;
+        }
+    }
+    .button-previous{
+        display: none;
+       
+        button{
+            &:hover{
+                background-color: #e3a51e ;
+                transition: 0.5s;
+            }
+            margin: auto 15px;
+            display: flex;
+            align-self: center;
+            height: 50px;
+            width: 50px;
+            color: black ;
+            background-color: rgb(61, 166, 252);
+        }
+    }
+    .button-next{
+        display: none;
+        button{
+            &:hover{
+                background-color: #e3a51e ;
+                transition: 0.5s;
+            }
+            margin: auto 15px;
+            display: flex;
+            align-self: center;
+            height: 50px;
+            width: 50px;
+            color: black ;
+            background-color: rgb(61, 166, 252);
+        }
+    }
+}

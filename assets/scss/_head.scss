@@ -1,0 +1,22 @@
+.first-header{
+    font-family: 'Open Sans', sans-serif;
+        background-color: #e3a51e;
+        padding: 12px;
+    .first-title{
+        display: flex;
+        justify-content: space-between;
+        
+        color: white;
+        .head-select{
+            a{
+                color: white;
+                text-decoration: none;
+                    margin-left: 5px;
+            }
+            span{
+                margin: 15px;
+            }
+        }
+    }
+    
+}

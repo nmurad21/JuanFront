@@ -1,0 +1,24 @@
+.second-header {
+  .header-navbar {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    .selects{
+        .select-ul{
+            margin-left: 25%;
+            li{
+                margin-left: 24px;
+            }
+        }
+    }
+  }
+  .navbar-icons {
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    i {
+      padding: 10px;
+    }
+  }
+}

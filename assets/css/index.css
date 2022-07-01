@@ -1,0 +1,302 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.first-header {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e3a51e;
+  padding: 12px;
+}
+
+.first-header .first-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.first-header .first-title .head-select a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.first-header .first-title .head-select span {
+  margin: 15px;
+}
+
+.second-header .header-navbar {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-header .header-navbar .selects .select-ul {
+  margin-left: 25%;
+}
+
+.second-header .header-navbar .selects .select-ul li {
+  margin-left: 24px;
+}
+
+.second-header .navbar-icons a {
+  color: black;
+  text-decoration: none;
+}
+
+.second-header .navbar-icons i {
+  padding: 10px;
+}
+
+#slider .image-text {
+  position: absolute;
+  top: 0;
+  color: white;
+  margin: 10% 8%;
+}
+
+#slider .image-text .img-text h4 {
+  font-size: 25px;
+}
+
+#slider .image-text .img-text h1 {
+  font-size: 45px;
+}
+
+#slider .image-text .img-text p {
+  font-size: 14px;
+}
+
+#slider .image-text .img-btn button {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  margin-top: 15px;
+}
+
+#slider .image-text .img-btn button:hover {
+  background-color: black;
+  color: #e3a51e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#slider:hover .button-previous {
+  display: block;
+}
+
+#slider:hover .button-next {
+  display: block;
+}
+
+#slider .button-previous {
+  display: none;
+}
+
+#slider .button-previous button {
+  margin: auto 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 50px;
+  width: 50px;
+  color: black;
+  background-color: #3da6fc;
+}
+
+#slider .button-previous button:hover {
+  background-color: #e3a51e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#slider .button-next {
+  display: none;
+}
+
+#slider .button-next button {
+  margin: auto 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 50px;
+  width: 50px;
+  color: black;
+  background-color: #3da6fc;
+}
+
+#slider .button-next button:hover {
+  background-color: #e3a51e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#service {
+  margin-top: 30px;
+}
+
+#service .service .service1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fcedda;
+  padding: 25px;
+}
+
+#service .service .service1 .icon-text {
+  margin-left: 25px;
+}
+
+#service .service .service2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2fbcb;
+  padding: 25px;
+}
+
+#service .service .service2 .icon-text {
+  margin-left: 25px;
+}
+
+#service .service .service3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f7d8f9;
+  padding: 25px;
+}
+
+#service .service .service3 .icon-text {
+  margin-left: 25px;
+}
+
+#products {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#products .product {
+  margin-top: 50px;
+  border: 1px solid rgba(231, 229, 229, 0.733);
+  border-radius: 3px;
+}
+
+#products .product a {
+  text-decoration: none;
+  color: black;
+}
+
+#products .product a img {
+  width: 100%;
+}
+
+#products .product:hover {
+  border-color: #e3a51e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#shoes {
+  margin-top: 40px;
+  position: relative;
+}
+
+#shoes .sale {
+  position: absolute;
+  top: 0;
+  color: white;
+  margin: 10% 5%;
+}
+
+#seller .seller-products {
+  margin-top: 30px;
+}
+
+#seller .seller-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#seller .seller-rows {
+  margin-left: 15px;
+}
+
+#seller .seller-rows .seller-product-row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#seller .seller-rows .seller-product-row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+#seller .seller-product1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#seller .seller-product1 a {
+  color: black;
+  text-decoration: none;
+}
+
+#seller .seller-product1 .seller-product-title {
+  margin-left: 6%;
+}
+
+#seller .seller-product1 .seller-product-title .seller-rating {
+  margin-top: 15px;
+  color: #e3a51e;
+}
+
+#seller .seller-product1 .seller-product-title .seller-click {
+  margin-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#seller .seller-product1 .seller-product-title .seller-click .click-heart i {
+  padding: 15px;
+  background-color: #f3f3f3;
+}
+
+#seller .seller-product1 .seller-product-title .seller-click .click-bag {
+  margin-left: 2%;
+}
+
+#seller .seller-product1 .seller-product-title .seller-click .click-bag i {
+  padding: 15px;
+  margin-left: 10%;
+  background-color: #f3f3f3;
+}
+
+#seller .seller-product1 .seller-product-title .seller-click .click-eye {
+  margin-left: 3%;
+}
+
+#seller .seller-product1 .seller-product-title .seller-click .click-eye i {
+  padding: 15px;
+  margin-left: 10%;
+  background-color: #f3f3f3;
+}

@@ -1,0 +1,21 @@
+#products{
+    text-align: center;
+    margin-top: 50px;
+
+        .product{
+            margin-top: 50px;
+            border: 1px solid rgba(231, 229, 229, 0.733);
+            border-radius: 3px;
+            a{
+                text-decoration: none;
+                color: black;
+                img{
+                    width: 100%;
+                }
+            }
+            &:hover{
+                border-color: #e3a51e;
+                transition: 0.5s;
+            }
+        }
+}
